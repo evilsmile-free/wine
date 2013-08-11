@@ -1087,8 +1087,6 @@ static UINT seed_dirs( struct dirstack *dirstack, const struct expr *cond, WCHAR
 {
     const struct expr *left, *right;
 
-    TRACE("github test log\n");
-
     if (!cond || cond->type != EXPR_COMPLEX) return *count = 0;
 
     left = cond->u.expr.left;
